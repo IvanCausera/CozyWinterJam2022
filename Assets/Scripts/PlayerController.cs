@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     void Start(){
         rb = gameObject.GetComponent<Rigidbody2D>();
         Debug.Log("Player.Start");
+        InvokeRepeating("stretch", 0, 0.6f);
     }
 
     // Update is called once per frame
@@ -61,4 +62,13 @@ public class PlayerController : MonoBehaviour
             swingingFlag = false;
         }
     }
+
+    private void stretch() {
+        if (transform.localScale.y == 1f) {
+            transform.localScale = new Vector3(1, 0.75f, 1);
+        } else {
+            transform.localScale = new Vector3(1, 1f, 1);
+        }
+    }
+
 }

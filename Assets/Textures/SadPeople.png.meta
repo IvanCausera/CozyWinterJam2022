@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 8124bbc31107a0642be787e7284e7e1c
+guid: 0d1929c52b550a744bedc63496e1f8e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7663256970462078997
-    second: Cookie_0
+      213: -3352688884543534241
+    second: SadPeople_0
   - first:
-      213: 1800657806909718875
-    second: Cookie_1
+      213: -7082635512697088783
+    second: SadPeople_1
   - first:
-      213: -3651257248266586529
-    second: Cookie_2
+      213: -1267763433992918972
+    second: SadPeople_2
+  - first:
+      213: -6053853726684824535
+    second: SadPeople_3
+  - first:
+      213: 165057310277214167
+    second: SadPeople_4
+  - first:
+      213: 5501293235682432274
+    second: SadPeople_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,10 +62,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.120930284, y: 0.90979505}
-  spritePixelsToUnits: 30
-  spriteBorder: {x: 0, y: 1590, z: 829, w: 0}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -112,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cookie_0
+      name: SadPeople_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1608
-        width: 230
-        height: 292
+        x: 68
+        y: 1799
+        width: 1230
+        height: 1878
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518adeaec9b595a60800000000000000
-      internalID: 7663256970462078997
+      spriteID: f5bc16a093bd871d0800000000000000
+      internalID: -3352688884543534241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cookie_1
+      name: SadPeople_1
       rect:
         serializedVersion: 2
-        x: 262
-        y: 1605
-        width: 231
-        height: 290
+        x: 1303
+        y: 1802
+        width: 1224
+        height: 1884
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5143ee2cb83df810800000000000000
-      internalID: 1800657806909718875
+      spriteID: 1f49f10d68c65bd90800000000000000
+      internalID: -7082635512697088783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cookie_2
+      name: SadPeople_2
       rect:
         serializedVersion: 2
-        x: 502
-        y: 1601
-        width: 230
-        height: 293
+        x: 2531
+        y: 1799
+        width: 1212
+        height: 1877
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +177,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f56ff7db0e0245dc0800000000000000
-      internalID: -3651257248266586529
+      spriteID: 4486f99afdff76ee0800000000000000
+      internalID: -1267763433992918972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SadPeople_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 135
+        width: 1073
+        height: 1519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb6ca3c146cfba0800000000000000
+      internalID: -6053853726684824535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SadPeople_4
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 118
+        width: 1067
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df97aacfb66a4200800000000000000
+      internalID: 165057310277214167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SadPeople_5
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 108
+        width: 1064
+        height: 1513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2155c1efc05885c40800000000000000
+      internalID: 5501293235682432274
       vertices: []
       indices: 
       edges: []
