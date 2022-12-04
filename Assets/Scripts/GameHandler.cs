@@ -23,7 +23,6 @@ public class GameHandler : MonoBehaviour {
     public void addPeople(int n = 1) {
         for (int i = 0; i < n; i++) {
             Vector3 pos = levelGrid.SpawnPosition();
-            //peoples.Add(Instantiate(prefabPeople, pos, Quaternion.identity));
             
             if (freeGridPos(pos) == null) {
                 peoples.Add(Instantiate(prefabPeople, pos, Quaternion.identity));
